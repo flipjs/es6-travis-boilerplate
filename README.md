@@ -13,7 +13,18 @@ ES6 - Travis - Nyc - Codecov.io - Ava - Boilerplate
 
 ## How-to
 
-### Set up your github repo
+### i. Set up requirements
+
+go to the following sites and create an account:
+- [NPM](https://www.npmjs.com/)
+- [Travis CI](https://travis-ci.org/)
+- [Codecov.io](https://codecov.io/)
+
+go to [GitHub Integrations](https://github.com/integrations) and add the following:
+- [Travis CI](https://github.com/integrations/travis-ci)
+- [Codecov](https://github.com/integrations/codecov)
+
+### ii. Set up your github repo
 
 git clone https://github.com/flipjs/es6-travis-boilerplate.git
 
@@ -39,7 +50,7 @@ git remote add origin https://github.com/your-username/your-repo.git
 
 git push -u origin master
 
-### Set up to publish to NPM (automatically)
+### iii. Set up to publish to NPM (automatically)
 
 run 'semantic-release-cli setup'
 - skip creating new .travis.yml as you already have one
@@ -62,7 +73,7 @@ The badges on top section of the README should now display some data.
 ### Additional notes
 
 The dependencies saved to package.json is configured with exact version.
-You might need to update it or change it to use semver range operator.
+You might need to update it or change to use semver range operator.
 
 Also, you might want to check out Kent C. Dodds' course [How to Write an Open Source JavaScript Library](https://egghead.io/series/how-to-write-an-open-source-javascript-library) at egghead.io
 
