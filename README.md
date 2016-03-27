@@ -64,6 +64,8 @@ The badges on top section of the README should now display some data.
 The dependencies saved to package.json is configured with exact version.
 You might need to update it or change it to use semver range operator.
 
+Also, you might want to check out Kent C. Dodds' course [How to Write an Open Source JavaScript Library](https://egghead.io/series/how-to-write-an-open-source-javascript-library) at egghead.io
+
 ## License
 
 MIT © [Felipe Apostol](https://github.com/flipjs)
