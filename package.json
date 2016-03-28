@@ -1,6 +1,6 @@
 {
   "name": "es6-travis-boilerplate",
-  "description": "Lets all meet up in the year 2000",
+  "description": "es6-travis-boilerplate",
   "version": "0.0.0-semantically-released",
   "main": "lib/index.js",
   "scripts": {
